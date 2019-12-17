@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+/* kontrola menija na velikim ekranima*/
+.sZ{
+    width: 1200px;
+    margin: 0 auto;
+}
+header .logo{
+    color: #000000;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    margin-left: 69px;
+    text-transform: uppercase;
+}
+header nav {
+    float: right;
+    margin-right: 69px;
+
+
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a {
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 100px;
+    color: #626262;
+    text-decoration: none;
+    display: block;
+}
+.gl{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.glHeader{
+    width: 100%;
+    height: 60px;
+}
+ .menu-toggle{
+    float: right;
+     margin-right: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+    .imgB{
+        margin:50px 69px 100px 69px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
+    .containerG,.container1{
+        margin: 0 150px 50px 150px;
+    }
+    .containerG{
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #c8c3b9;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 22px;
+        color: #626262;
+        font-weight: normal;
+        margin-bottom: 40px;
+    }
+    p{
+        color: #626262;
+        font-size: 11px;
+    }
+    .lCom p {
+        color: #b4ad9e;
+        font-weight: normal;
+        margin-top: 55px;
+        font-size: 11px;
+    }
+    .container1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerM1{
+        flex: 1;
+        width: 420px;
+        margin-right: 30px;
+    }
+    .containerM2{
+        flex: 1;
+        width: 420px;
+        margin-left: 30px;
+
+    }
+    .imgM1,.imgM2,.imgM3,.imgM4,.imgM5,.imgM6{
+
+        height:270px;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://1.bp.blogspot.com/-18_wpkz1NNM/XGH_1q2gMMI/AAAAAAAAT8A/KlNMzJBOAacWezF6cyUkdeP01pcr76r4ACLcBGAs/s1600/ss7.png");
+
+    }
+    .container3{
+        width: 100%;
+        background-color: #f0f0f0;
+        margin: 0 0 100px 0;
+    }
+    .sinCont{
+        width: 400px;
+        margin: 0 auto;
+        padding: 75px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .sinCont h2{
+        padding: 0;
+        flex: 1;
+        color: #333333;
+        font-size: 27px;
+        margin: 0  auto;
+    }
+    .sinCont form {
+        flex: 1;
+        margin:75px auto;
+        border-bottom: 2px solid ;
+    }
+    .sinCont form input{
+        background-color: #f0f0f0;
+        border: none;
+        height: 32px;
+        font-size: 22px;
+        color: #626262;
+    }
+    .sinCont button {
+       float: right;
+        border: none;
+        background-color: #f0f0f0;
+        height: 32px;
+        font-size: 22px;
+        color: #626262;
+        margin-left: 10px;
+    }
+    .buttonC{
+        width: 200px;
+        display: flex;
+        margin: 160px auto;
+    }
+    .buttonC form button {
+        background-color: #ffffff;
+        font-size: 22px;
+        color: #626262;
+        border: 1px  solid #626262;
+        padding: 22px;
+    }
+    .footer {
+        width: 100% ;
+        height: 100px;
+        background-color: #f0f0f0;
+        display: flex;
+    }
+    .text {
+        width: 380px;
+        margin: auto auto auto 150px;
+    }
+    .text a{
+        size: 22px;
+        margin-left: 20px;
+        color: #626262;
+        text-decoration: none;
+    }
+    .int {
+        display: flex;
+        margin: auto 71px auto auto;
+    }
+    .int a {
+        size: 22px;
+        margin-left: 20px;
+        color: #626262;
+        text-decoration: none;
+    }
+@media (max-width: 1201px) {
+    .gl{
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    header{
+        width: 100%;
+    }
+    .sZ{
+        width: 100%;
+        margin: 0
+    }
+}
+
+@media (max-width: 1005px) {
+    header nav ul li a {
+        padding: 0;
+    }
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        /*display: none;*/
+        position: absolute;
+        width: 100%;
+        height: calc(255px - 50px);
+        background: #333;
+        top: -420%;
+    }
+
+    .active {
+        top: 50px;
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul a {
+        border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+    }
+
+    .imgB {
+        margin: 50px 3px 50px 3px;
+        height: 500px;
+    }
+
+    header .logo {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    .container1 {
+        flex-direction: column;
+
+    }
+    .containerM1,.containerM2 {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 25px;
+
+    }
+    .imgM1,.imgM2,.imgM3,.imgM4,.imgM5,.imgM6 {
+        width: 100%;
+        height:270px;
+    }
+
+}
+@media (max-width: 707px){
+    .imgB {
+        margin: 50px 0px 50px 0px;
+        height: 300px;
+    }
+    .containerG, .container1 {
+        margin: 0 5px;
+    }
+    .text {
+        margin: auto auto auto 10px;
+    }
+    .int {
+        margin: auto 10px auto auto;
+    }
+    .sinCont {
+        width: 100%;
+    }
+    h4,h1 {
+        margin-bottom: 10px;
+    }
+    .lCom p {
+        margin-top: 10px;
+    }
+    .buttonC{
+        width: 155px;
+    }
+    .container3 {
+        margin: 0 0 15px 0;
+    }
+    .text {
+        display: none;
+    }
+    .int {
+        margin: auto auto auto auto;
+    }
+}
+/* smart watch*/
+@media (max-width: 350px){
+    .imgM1,.imgM2,.imgM3,.imgM4,.imgM5,.imgM6,.imgB {
+        width: 100%;
+        height:150px;
+        margin: 50px 0px 10px 0px;
+
+    }
+    .containerG, .container1 {
+        margin: 2px;
+    }
+    h4{
+        font-size: 6px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    p ,.lCom p{
+        font-size: 8px;
+    }
+    .sinCont {
+        width: 100%;
+    }
+    .sinCont h2 {
+        font-size: 11px;
+    }
+    .sinCont form {
+        margin: 25px auto;
+    }
+    .sinCont form input {
+        font-size: 8px;
+    }
+    .sinCont button {
+        font-size: 22px;
+    }
+    .buttonC{
+        width: 85px;
+        display: flex;
+        margin: 15px auto;
+
+    }
+    .buttonC form button {
+        font-size: 8px;
+
+    }
+    .text a ,.int a {
+       font-size:12px;
+        margin-left: 5px;
+
+    }
+    .footer {
+        height: 75px;
+    }
+
+}
